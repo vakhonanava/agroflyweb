@@ -115,19 +115,19 @@ function BookingForm() {
       }),
     };
 
-    try {
-      const res = await fetch(
-        "https://agrofly-c08c5-default-rtdb.europe-west1.firebasedatabase.app/your_collection",
-        options
-      );
-      console.log(res);
-    } catch (error) {
-      console.error("Fetch error:", error);
-    }
+    // try {
+    //   const res = await fetch(
+    //     "https://agrofly-c08c5-default-rtdb.europe-west1.firebasedatabase.app/your_collection",
+    //     options
+    //   );
+    //   console.log(res);
+    // } catch (error) {
+    //   console.error("Fetch error:", error);
+    // }
 
     // Additional logic or handling can be added here
 
-    console.log("Form Data:", formData);
+    // console.log("Form Data:", formData);
   };
 
   return (

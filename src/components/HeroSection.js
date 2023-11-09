@@ -3,10 +3,17 @@ import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
 
+
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/videos/argrovideo.mov" autoPlay loop muted />
+      <video
+        src={"https://youtu.be/qB0N4pwrjE8?si=VCKFXLhyVL5WEAwR&t=19"}
+        // src={video}
+        autoPlay
+        loop
+        muted
+      />
       <h1>Start today</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
