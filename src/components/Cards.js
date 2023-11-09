@@ -4,42 +4,42 @@ import CardItem from './CardItem';
 
 function Cards() {
   return (
-    <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
+    <div className="cards">
+      <h1>Explore AgroDrone</h1>
+      <div className="cards__container">
+        <div className="cards__wrapper">
+          <ul className="cards__items">
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              src="images/1.png"
+              text="The AGRAS T40 is equipped with the revolutionary Coaxial Twin Rotor design, enabling it to carry a spray load of 40 kg[1]and a spread load of 50 kg (70 L)"
+              label="Adventure"
+              path="/"
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              src="images/2.png"
+              text="per hour 21.3 hectare(farmland)"
+              label="Farmland"
+              path="/"
             />
           </ul>
-          <ul className='cards__items'>
+          <ul className="cards__items">
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src="images/3.png"
+              text="per hour 4 hectares "
+              label="orchards"
+              path="/"
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              src="images/4.png"
+              text="per hour 1.5 tonnes of fertilizer"
+              label="spreading"
+              path="/"
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src="images/5.png"
+              text="The system detects land boundaries and obstacles automatically, for quicker planning of flight routes over farmland and hilly orchards."
+              label="maping"
+              path="/"
             />
           </ul>
         </div>
